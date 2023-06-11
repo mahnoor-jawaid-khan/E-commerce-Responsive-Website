@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sources/css/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./sources/css/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./sources/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home - ShopZone</title>
+</head>
+
+<body>
+    <div class="alert alert-secondary " role="alert">
+        Free shipping on order over 10K pkr!!!
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 px-5 ">
+        <div class="container-fluid">
+            <i class=" fa fa-3x fa-shopping-cart mx-5" id="shopping"></i>
+            <a class="navbar-brand" href="#">Shop<span>Zone</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="./index.html">New Arrivals</a>
+                    <a class="nav-link" href="#">Dresses</a>
+                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#">Accessories</a>
+                    <a class="nav-link" href="#">Sale</a>
+                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link  active" href="contact.html">Contact</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="./Images/slide3.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item active">
+                <img src="./Images/slide2.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./Images/slide3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="alert alert-primary" role="alert">
+        buy online or pickup in store
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <h3 class="fw-bold text-center py-3" style="text-shadow: 3px 3px 4px gray">Lets get a Membership</h3>
+
+
+            <div class="col">
+
+                <div class="testbox">
+                    <form action="/">
+                        <h3 class="fw-bold text-secondary text-start py-3"> Sign Up</h3>
+                        <div class="item">
+                            <label for="name">Name<span>*</span></label>
+                            <input id="name" type="text" name="name" required />
+                        </div>
+                        <div class="item">
+                            <label for="email">Email Address<span>*</span></label>
+                            <input id="email" type="email" name="email" required />
+                        </div>
+                        <div class="item">
+                            <label for="address">Address<span>*</span></label>
+                            <input id="address" type="address" name="address" required />
+                        </div>
+                        <div class="item">
+                            <label for="city">City<span>*</span></label>
+                            <input id="city" type="text" name="city" required />
+                        </div>
+                        <div class="item">
+                            <label for="state">State<span>*</span></label>
+                            <input id="state" type="text" name="state" required />
+                        </div>
+                        <div class="item">
+                            <label for="zip">Zip<span>*</span></label>
+                            <input id="zip" type="text" name="zip" required />
+                        </div>
+                        <div class="item">
+                            <label for="phone">Phone<span>*</span></label>
+                            <input id="phone" type="number" name="phone" required />
+                        </div>
+                        <div class="item">
+                            <label for="bdate">Date of Birth<span>*</span></label>
+                            <input id="bdate" type="date" name="bdate" required />
+                            <i class="fas fa-calendar-alt px-3"></i>
+                        </div>
+                        <div class="question">
+                            <label>Gender</label>
+                            <div class="question-answer">
+                                <div>
+                                    <input type="radio" value="none" id="radio_1" name="gender" />
+                                    <label for="radio_1" class="radio"><span>Male</span></label>
+                                </div>
+                                <div>
+                                    <input type="radio" value="none" id="radio_2" name="gender" />
+                                    <label for="radio_2" class="radio"><span>Female</span></label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btn-block">
+                            <button class="buttton" type="submit" href="/">Sign up</button>
+                        </div>
+                        <p class="pt-4 text-center">You have already an
+                            <a href="">Account </a>
+                        </p>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+          <!-- Footer Area Starts  -->
+          <footer class="bg-secondary text-white pt-5  mt-4">
+            <div class="container  text-md-left">
+                <div class="row text-center text-md-left">
+
+                    <!-- col 1  Company name -->
+                    <div class="col-md-3 col-lg-3 cok-xl-3 mx-auto mt-2">
+                        <h2 class=" mb-4 font-weight-bold  text-warning">ShopNow</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores iste perspiciatis
+                            explicabo
+                            ipsum cuk dolorem esse quaerat adipisci quos praesentium.</p>
+                    </div>
+
+                    <!-- col 2 products-->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mt-2">
+                        <h5 class="text-uppercase  font-weight-bold text-warning">Products</h5>
+                        <p>
+                            <a href="" class="text-white" style="text-decoration:none;">Child Accessories</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-white" style="text-decoration:none;">Phone Accessories</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-white" style="text-decoration:none;">Fashion</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-white" style="text-decoration:none;">Shoes</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-white" style="text-decoration:none;">Others</a>
+                        </p>
+                    </div>
+
+                    <!-- col 3 useful links  -->
+                    <div class="col-md-3 col-lg-3 cok-xl-3 mt-2">
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">useful links</h5>
+
+                        <p>
+                            <a href="" class="text-white" style="text-decoration:none;">Your Account</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-white" style="text-decoration:none;">Shipping details</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-white" style="text-decoration:none;">Become an Affiliate</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-white" style="text-decoration:none;">Help Desk</a>
+                        </p>
+                    </div>
+
+                    <!-- col 4  Contacts-->
+                    <div class="col-md-3 col-lg-3 cok-xl-3 mt-2">
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contacts</h5>
+
+                        <p>
+                            <i class="fas fa-home mr-3"></i> Karachi, Pakistan
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope mr-4"></i> <a href=" mailto:eshopping@gmail.com"
+                                class="text-white" style="text-decoration:none;"> shopzone@gmail.com</a>
+                        </p>
+                        <p>
+                            <i class="fas fa-phone mr-4"></i> +923148225461
+                        </p>
+                        <p>
+                            <i class="fas fa-print mr-4"></i> 01 2358 37689
+
+                        </p>
+                    </div>
+
+                    <hr class="mb-4">
+
+                    <!-- Row and cols for copyright text and icons -->
+                    <div class="row align-items-center">
+                        <div class="col-md-7 col-lg-8">
+                            <p>
+                                Copyright &copy; 2022 All rights reserved!
+                            </p>
+                        </div>
+                        <div class="col-md-5 col-lg-4">
+                            <div class="text-center text-md-right">
+                                <ul>
+                                    <li class="list-inline-item">
+                                        <a href="" class="btn-floating btn-sm text-white" style="font-size: 20px;">
+                                            <i class="fab fa-facebook mr-4"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="" class="btn-floating btn-sm text-white" style="font-size: 20px;">
+                                            <i class="fab fa-instagram mr-4"></i>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-inline-item">
+                                        <a href="" class="btn-floating btn-sm text-white" style="font-size: 20px;">
+                                            <i class="fab fa-whatsapp mr-4"></i>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-inline-item">
+                                        <a href="" class="btn-floating btn-sm text-white" style="font-size: 20px;">
+                                            <i class="fab fa-twitter mr-4"></i>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-inline-item">
+                                        <a href="" class="btn-floating btn-sm text-white" style="font-size: 20px;">
+                                            <i class="fas fa-share-alt mr-4"></i>
+                                        </a>
+                                    </li>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+        <!-- Footer ends -->
+
+
+</body>
+
+</html>
